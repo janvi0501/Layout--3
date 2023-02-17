@@ -44,7 +44,7 @@ input, button {
     color: rgb(255, 255, 255);
     background-color: rgb(54, 54, 54);
     position: absolute;
-    bottom: 720px;
+    bottom: 775px;
     opacity: 0.5;
     padding: 20px 50px;
     padding-right: 885px;
@@ -66,7 +66,7 @@ input, button {
     font-size: 50px;
     padding: 20px 60px;
     position: absolute;
-    bottom: 390px;
+    bottom: 447px;
     left: 0px;
     padding-right: 642px;  
     opacity: 0.5; 
@@ -88,11 +88,12 @@ input, button {
     background-color: gainsboro;
     /* padding-left: 25px; */
     position: absolute;
-    bottom:580px;
+    bottom:650px;
     left: 0px;
     opacity: 0.5;
     text-align: right; 
-    direction: rtl;  
+    direction: rtl; 
+    padding-right: 30px; 
 }
 
 .data1{
@@ -134,12 +135,14 @@ input, button {
     padding: 15px 0px;
     text-align: left;
     color: rgb(92, 91, 91);
+    text-transform: uppercase;
 }
 
 .name5{
     font-size: 12px;
     text-align: left;
     color: rgb(92, 91, 91);
+    text-transform: uppercase;
 }
 .heading4{
     background-color: rgb(191, 191, 191);
@@ -155,7 +158,45 @@ input, button {
     color: white;
     text-align: left;
     padding: 60px 60px;
+    display: flex;
 }
- .coded1{
+
+.img2{
+    width: 80px;
+    height: 80px;
+}
+
+.coded1{
     font-size: 30px;
- }
+}
+
+.second{
+    font-size: 40px;
+    color: rgb(0, 179, 203);
+}
+
+.end{
+    font-size: 25px;
+    color: rgb(111, 111, 111);
+}
+
+.trophy{
+    font-size: 40px;
+}
+
+.end1{
+    font-size: 15px;
+    color: rgb(111, 111, 111);    
+}
+
+.name10{
+    font-size: 10px;
+    color: rgb(111, 111, 111); 
+    text-transform: uppercase; 
+}
+
+.name11{
+    font-size: 10px;
+    color: rgb(111, 111, 111); 
+
+}
