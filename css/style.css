@@ -64,12 +64,14 @@ input, button {
     background-color: rgb(240, 211, 81 );
     color: white;
     font-size: 50px;
-    padding: 20px 60px;
+    padding: 50px 60px;
     position: absolute;
     bottom: 447px;
     left: 0px;
     padding-right: 642px;  
     opacity: 0.5; 
+    height: 205px;
+    line-height: 50px;
 }
 
 .programmig{
@@ -93,7 +95,10 @@ input, button {
     opacity: 0.5;
     text-align: right; 
     direction: rtl; 
-    padding-right: 30px; 
+    width:500px;
+    height: 450px;
+    padding-top: 140px;
+    line-height: 40px; 
 }
 
 .data1{
