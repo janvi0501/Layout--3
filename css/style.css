@@ -86,12 +86,13 @@ input, button {
 }
 .data{
     background-color: gainsboro;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     position: absolute;
-    bottom:180px;
+    bottom:580px;
     left: 0px;
     opacity: 0.5;
-    text-align: end;   
+    text-align: right; 
+    direction: rtl;  
 }
 
 .data1{
@@ -148,3 +149,13 @@ input, button {
 .heading3{
     padding: 20px 50px;
 }
+
+.data2{
+    background-color: rgb(6, 149, 220);
+    color: white;
+    text-align: left;
+    padding: 60px 60px;
+}
+ .coded1{
+    font-size: 30px;
+ }
