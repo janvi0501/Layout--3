@@ -45,11 +45,7 @@ input, button {
 .heading{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.456);
-    /* position: absolute;
-    bottom: 790px; */
-    /* opacity: 0.5; */
     padding: 20px 50px;
-    /* padding-right: 885px; */
 }
 
 .u{
@@ -67,12 +63,6 @@ input, button {
     color: white;
     font-size: 50px;
     padding: 50px 50px;
-    /* position: absolute;
-    bottom: 462px;
-    left: 0px; */
-    padding-right: 642px;  
-    /* opacity: 0.5;  */
-    /* height: 190px; */
     line-height: 50px;
 }
 
@@ -82,36 +72,24 @@ input, button {
 
 .list{
     list-style-type: square;
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     padding: 30px 0px;
     padding-left: 300px;
     padding-right: 70px;
+    font-weight: 500;
 }
 .data{
-    background-color: rgba(227, 225, 225, 0.456);
-    /* padding-left: 25px; */
-    /* position: absolute;
-    bottom:650px;
-    left: 0px; */
-    /* opacity: 0.5; */
+    background-color: rgba(180, 176, 176, 0.356);
     text-align: right; 
     direction: rtl; 
-    /* width:500px;
-    height: 450px;
-    padding-top: 140px; */
     line-height: 40px; 
 }
 
 .data1{
     color: white;
     background-color: rgba(64, 64, 64, 0.456);
-    /* opacity: 0.5; */
     text-align: right;
-    /* position: absolute;
-    bottom: 460px;
-    right: 0px;
-    width: 515px; */
     padding-right: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -128,21 +106,21 @@ input, button {
 }
 
 .our_cmp{
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(206, 2, 2);
 }
 
 .coded{
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(85, 84, 84);;
 }
 
 .name3{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .name4{
-    font-size: 12px;
+    font-size: 15px;
     padding: 15px 0px;
     text-align: left;
     color: rgb(92, 91, 91);
@@ -150,10 +128,11 @@ input, button {
 }
 
 .name5{
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     color: rgb(92, 91, 91);
     text-transform: uppercase;
+    padding-top: 20px;
 }
 
 .name6{
@@ -164,20 +143,17 @@ input, button {
     margin-left: -50px;
     margin-right: -50px;
     margin-top: 50px;
-    margin-bottom: -30px;
+    margin-bottom: -60px;
 }
 
 .heading4{
     background-color: rgb(234, 234, 234);
-    padding: 30px 50px;
-    /* margin-right: -15px;
-    margin-bottom: -15px; */
+    padding: 0px 50px;
+    padding-top: 25px;
 }
 
 .heading3{
     padding: 20px 50px;
-    /* margin-right: -15px;
-    margin-bottom: 35px; */
 }
 
 .data2{
@@ -186,13 +162,11 @@ input, button {
     text-align: left;
     padding: 60px 60px;
     display: flex;
-    /* margin-left: -15px; */
 }
 
 .data3{
-    /* margin-left: -15px; */
     text-align: right;
-    padding: 50px 50px;
+    padding: 30px 50px;
 }
 
 .img2{
@@ -219,19 +193,19 @@ input, button {
 }
 
 .end1{
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(111, 111, 111);    
 }
 
 .name10{
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(111, 111, 111); 
     text-transform: uppercase; 
     padding-left: 180px;
 }
 
 .name11{
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(111, 111, 111); 
 }
 
@@ -242,6 +216,9 @@ input, button {
 
 .logo{
     color: rgb(226, 221, 221);
-    font-size: 12px;
+    font-size: 15px;
+}
+.img6{
+    padding-left: 80px;
 }
 
