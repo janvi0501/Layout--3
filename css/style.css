@@ -42,10 +42,10 @@ input, button {
 
 .heading{
     color: rgb(255, 255, 255);
-    background-color: rgb(54, 54, 54);
+    background-color: rgba(0, 0, 0, 0.456);
     position: absolute;
-    bottom: 775px;
-    opacity: 0.5;
+    bottom: 790px;
+    /* opacity: 0.5; */
     padding: 20px 50px;
     padding-right: 885px;
 }
@@ -61,16 +61,16 @@ input, button {
 }
 
 .heading2{
-    background-color: rgb(240, 211, 81 );
+    background-color: rgba(193, 185, 50, 0.456);
     color: white;
     font-size: 50px;
     padding: 50px 60px;
     position: absolute;
-    bottom: 447px;
+    bottom: 462px;
     left: 0px;
     padding-right: 642px;  
-    opacity: 0.5; 
-    height: 205px;
+    /* opacity: 0.5;  */
+    height: 190px;
     line-height: 50px;
 }
 
@@ -87,12 +87,12 @@ input, button {
     padding-right: 50px;
 }
 .data{
-    background-color: gainsboro;
+    background-color: rgba(227, 225, 225, 0.456);
     /* padding-left: 25px; */
     position: absolute;
     bottom:650px;
     left: 0px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     text-align: right; 
     direction: rtl; 
     width:500px;
@@ -103,15 +103,16 @@ input, button {
 
 .data1{
     color: white;
-    background-color: rgb(64, 64, 64);
-    opacity: 0.5;
+    background-color: rgba(64, 64, 64, 0.456);
+    /* opacity: 0.5; */
     text-align: end;
     position: absolute;
-    bottom: 450px;
+    bottom: 460px;
     right: 0px;
     width: 515px;
     /* padding-right: 80px; */
-    padding: 40px 45px;
+    padding: 35px 40px;
+    overflow: hidden;
 }
 
 .name{
@@ -152,13 +153,29 @@ input, button {
     color: rgb(92, 91, 91);
     text-transform: uppercase;
 }
+
+.name6{
+    border: 5px solid  rgb(206, 2, 2);
+}
+
+.border{
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
 .heading4{
-    background-color: rgb(191, 191, 191);
-    padding: 20px 50px;
+    background-color: rgb(234, 234, 234);
+    padding: 30px 50px;
+    margin-right: -15px;
+    margin-bottom: -15px;
 }
 
 .heading3{
     padding: 20px 50px;
+    margin-right: -15px;
+    margin-bottom: 35px;
 }
 
 .data2{
@@ -167,6 +184,13 @@ input, button {
     text-align: left;
     padding: 60px 60px;
     display: flex;
+    margin-left: -15px;
+}
+
+.data3{
+    margin-left: -15px;
+    text-align: right;
+    padding: 0px 30px;
 }
 
 .img2{
@@ -201,10 +225,21 @@ input, button {
     font-size: 10px;
     color: rgb(111, 111, 111); 
     text-transform: uppercase; 
+    padding-left: 180px;
 }
 
 .name11{
     font-size: 10px;
     color: rgb(111, 111, 111); 
+}
+
+.main_div{
+    line-height: 22px;
+    padding-top: 30px;
+}
+
+.logo{
+    color: rgb(226, 221, 221);
+    font-size: 12px;
 }
 
